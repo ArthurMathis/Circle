@@ -109,7 +109,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/point.cpp",
+			"path" : "source/point.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -120,7 +120,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/circle.cpp",
+			"path" : "source/circle.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

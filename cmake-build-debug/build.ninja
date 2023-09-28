@@ -55,17 +55,17 @@ build CMakeFiles/td2.dir/main.cpp.o: CXX_COMPILER__td2_unscanned_Debug /Users/ar
   OBJECT_DIR = CMakeFiles/td2.dir
   OBJECT_FILE_DIR = CMakeFiles/td2.dir
 
-build CMakeFiles/td2.dir/Source/point.cpp.o: CXX_COMPILER__td2_unscanned_Debug /Users/arthurmathis/Library/Mobile$ Documents/com~apple~CloudDocs/Licence/Licence$ MIAGE/Programmation$ objets/td2/Source/point.cpp || cmake_object_order_depends_target_td2
-  DEP_FILE = CMakeFiles/td2.dir/Source/point.cpp.o.d
+build CMakeFiles/td2.dir/source/point.cpp.o: CXX_COMPILER__td2_unscanned_Debug /Users/arthurmathis/Library/Mobile$ Documents/com~apple~CloudDocs/Licence/Licence$ MIAGE/Programmation$ objets/td2/source/point.cpp || cmake_object_order_depends_target_td2
+  DEP_FILE = CMakeFiles/td2.dir/source/point.cpp.o.d
   FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/td2.dir
-  OBJECT_FILE_DIR = CMakeFiles/td2.dir/Source
+  OBJECT_FILE_DIR = CMakeFiles/td2.dir/source
 
-build CMakeFiles/td2.dir/Source/circle.cpp.o: CXX_COMPILER__td2_unscanned_Debug /Users/arthurmathis/Library/Mobile$ Documents/com~apple~CloudDocs/Licence/Licence$ MIAGE/Programmation$ objets/td2/Source/circle.cpp || cmake_object_order_depends_target_td2
-  DEP_FILE = CMakeFiles/td2.dir/Source/circle.cpp.o.d
+build CMakeFiles/td2.dir/source/circle.cpp.o: CXX_COMPILER__td2_unscanned_Debug /Users/arthurmathis/Library/Mobile$ Documents/com~apple~CloudDocs/Licence/Licence$ MIAGE/Programmation$ objets/td2/source/circle.cpp || cmake_object_order_depends_target_td2
+  DEP_FILE = CMakeFiles/td2.dir/source/circle.cpp.o.d
   FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/td2.dir
-  OBJECT_FILE_DIR = CMakeFiles/td2.dir/Source
+  OBJECT_FILE_DIR = CMakeFiles/td2.dir/source
 
 
 # =============================================================================
@@ -75,7 +75,7 @@ build CMakeFiles/td2.dir/Source/circle.cpp.o: CXX_COMPILER__td2_unscanned_Debug 
 #############################################
 # Link the executable td2
 
-build td2: CXX_EXECUTABLE_LINKER__td2_Debug CMakeFiles/td2.dir/main.cpp.o CMakeFiles/td2.dir/Source/point.cpp.o CMakeFiles/td2.dir/Source/circle.cpp.o
+build td2: CXX_EXECUTABLE_LINKER__td2_Debug CMakeFiles/td2.dir/main.cpp.o CMakeFiles/td2.dir/source/point.cpp.o CMakeFiles/td2.dir/source/circle.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/td2.dir
   POST_BUILD = :
